@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ManageCompany">
+
+    <TextView
+        android:id="@+id/company_text_view"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/info_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="Info"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/info_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_TextView" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="Categories"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_edit_text" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="hair"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="makeup"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxHair"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <CheckBox
+
+        android:id="@+id/checkBoxNails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="nails"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxHair" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPedicure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="pedicure"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxNails" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEyebrows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="eyebrows"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxEyelashes"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxManicure" />
+
+    <CheckBox
+        android:id="@+id/checkBoxManicure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="manicure"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxPedicure"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxSolarium" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEyelashes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="eyelashes"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPedicure" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSolarium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="solarium"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxNails"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxMakeup" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFacial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:background="@drawable/custom_check_box_green"
+        android:button="@android:color/transparent"
+        android:text="facial"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxEyelashes" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="PRICE LIST"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxFacial" />
+
+    <EditText
+        android:id="@+id/price_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="OK"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price_edit_text"/>
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

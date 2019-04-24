@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1040767456381",
+    "firebase_url": "https://mintdb-15273.firebaseio.com",
+    "project_id": "mintdb-15273",
+    "storage_bucket": "mintdb-15273.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040767456381:android:961d0f5370983c62",
+        "android_client_info": {
+          "package_name": "com.app.mint.mint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040767456381-rmg6phddqp9m3k04kfkjldc3ga2tq8sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApcKHrlvfbPVcr3kreyMHxug1xvYT109Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040767456381-rmg6phddqp9m3k04kfkjldc3ga2tq8sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040767456381:android:af91ea6ecf18241b",
+        "android_client_info": {
+          "package_name": "com.app.mintpartners"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040767456381-rmg6phddqp9m3k04kfkjldc3ga2tq8sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApcKHrlvfbPVcr3kreyMHxug1xvYT109Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040767456381-rmg6phddqp9m3k04kfkjldc3ga2tq8sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
